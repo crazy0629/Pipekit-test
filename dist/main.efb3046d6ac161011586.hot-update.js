@@ -1,0 +1,30 @@
+"use strict";
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdatefrontend_take_home"]("main",{
+
+/***/ "./src/style.tsx":
+/*!***********************!*\
+  !*** ./src/style.tsx ***!
+  \***********************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ButtonContainer\": () => (/* binding */ ButtonContainer),\n/* harmony export */   \"CustomButton\": () => (/* binding */ CustomButton),\n/* harmony export */   \"CustomInput\": () => (/* binding */ CustomInput),\n/* harmony export */   \"InputContainer\": () => (/* binding */ InputContainer),\n/* harmony export */   \"PipeContainer\": () => (/* binding */ PipeContainer),\n/* harmony export */   \"StructureContainer\": () => (/* binding */ StructureContainer),\n/* harmony export */   \"StructureWrapper\": () => (/* binding */ StructureWrapper),\n/* harmony export */   \"Title\": () => (/* binding */ Title)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* module decorator */ module = __webpack_require__.hmd(module);\n(function () {\n  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;\n  enterModule && enterModule(module);\n})();\nvar __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {\n  return a;\n};\n\nconst CustomButton = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div`\n    width: 90px;\n    height: 40px;\n    border-radius: 7px;\n    font-size: 15px;\n    border: 1px solid #000;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-weight: 700;\n    font-family: 'Roboto', sans-serif;\n    cursor: pointer;\n    color: ${props => props.mode ? \"#000\" : \"#fff\"};\n    transition: all .2s ease-in-out;\n    background: ${props => props.mode ? \"#fff\" : \"#000\"};\n    :hover {\n        transform: scale(1.1, 1.1);\n    }\n`;\nconst ButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div`\n    display: flex;\n    gap: 20px;\n`;\nconst Title = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].h1`\n    font-family: 'Roboto', sans-serif;\n    margin: 0;\n`;\nconst InputContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div`\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    border: 1px solid red;\n`;\nconst PipeContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div`\n    padding: 30px;\n    display: flex;\n    flex-direction: column;\n`;\nconst CustomInput = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].input`\n    font-family: 'Roboto', sans-serif;\n    font-weight: 900;\n    font-size: 20px;\n    outline: none;\n    border: none;\n    border-bottom: 1px solid #c3c0c0;\n    padding: 20px 100px 15px;\n    width: 30vw;\n    margin: 0 0 15px;\n`;\nconst StructureContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div`\n    border: 1px solid #c3c0c0;\n    border-radius: 20px;\n    height: calc(100vh - 235px);\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\n`;\nconst StructureWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div``;\n;\n(function () {\n  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;\n  if (!reactHotLoader) {\n    return;\n  }\n  reactHotLoader.register(CustomButton, \"CustomButton\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(ButtonContainer, \"ButtonContainer\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(Title, \"Title\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(InputContainer, \"InputContainer\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(PipeContainer, \"PipeContainer\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(CustomInput, \"CustomInput\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(StructureContainer, \"StructureContainer\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n  reactHotLoader.register(StructureWrapper, \"StructureWrapper\", \"D:\\\\work Space\\\\frontend-take-home\\\\src\\\\style.tsx\");\n})();\n;\n(function () {\n  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;\n  leaveModule && leaveModule(module);\n})();\n\n//# sourceURL=webpack://frontend-take-home/./src/style.tsx?");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("2448111cfc4b9b37e663")
+/******/ })();
+/******/ 
+/******/ }
+);
